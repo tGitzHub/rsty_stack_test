@@ -1,3 +1,4 @@
 scr-tauri/target
 frontend/target
 frontend/dist
+.vscode
