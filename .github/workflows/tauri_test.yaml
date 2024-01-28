@@ -20,6 +20,9 @@ jobs:
 
       - name: install wasm build target
         run: rustup target add wasm32-unknown-unknown
+
+      - name: check cargo binstall
+        uses: cargo-bins/cargo-binstall@main
       
       - name: install dependencies (ubuntu only)
         if: matrix.platform == 'ubuntu-20.04'
